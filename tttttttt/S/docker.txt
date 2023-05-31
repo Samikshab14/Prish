@@ -1,0 +1,17 @@
+open a folder
+
+create Dokerfile
+create index.js inthat js file write  
+console.log("Name :sam")
+
+
+then inside Dokerfile 
+FROM node:alpine
+COPY . /Foldername
+CMD node /foldername/index.js
+
+terminal:
+doker --version
+node index.js
+docker build -t foldername .
+docker images
